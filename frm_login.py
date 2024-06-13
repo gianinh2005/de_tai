@@ -25,7 +25,7 @@ class LoginApp:
 
     def create_account_window(self):
         create_window = tk.Toplevel(self.root)
-        create_window.title("Tạo tài khoản")
+        create_window.title("Tạo tài khoản.")
         create_window.geometry("300x300")
 
         tk.Label(create_window, text="Tên đăng nhập:").grid(row=0, column=0, padx=5, pady=5)
